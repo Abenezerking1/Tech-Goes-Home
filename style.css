@@ -1,1 +1,132 @@
 
+body {
+background-color: #ADD8E6;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 500%;
+  color: #ff0000;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff0000;
+  padding: 1cm;
+  background-size: 500em;
+}
+
+.button {
+ text-decoration: none;
+  background-color: #ff0000;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 50px;
+  word-spacing: 20px;
+  border-color: black;
+  text-transform: uppercase;
+  float: center;
+  background-size: 25px;
+}
+
+
+.manager{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff0000;
+  padding: 1cm;
+  background-size: 500em;
+  border-block: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+h5 {
+  text-align: center;
+  font-size: 25px;
+  font-family: unset;
+}
+
+h6 {
+  font
+}
+
+.contact-us {
+  padding: 20px;
+  box-sizing:border-box;
+  position: absolute;
+  text-align: left;
+  font-size: 500%;
+}
+
+.info{
+ text-align: left;
+  
+}
+
+.contact-us p{
+ margin: 10px 0;
+text-align: left;
+  font-size: 500%;
+}
+
+hr{
+  color: black;
+  
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+padding: 20px;
+flex: 1;
+text-align: center;
+}
+
+.contact-text {
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: 150%;
+ background-color: #ff0000;
+font-family: inherit;
+}
+
+.Phone-Number{
+  text-align: center;
+background-color: #ff0000;
+  font-family: initial;
+}
+
+.Email{
+  text-align: center;
+background-color: #ff0000;
+  font-size: initial;
+}
